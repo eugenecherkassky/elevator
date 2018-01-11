@@ -1,0 +1,17 @@
+{
+    "name": "eugene.cherkassky/elevator",
+    "description": "xanadu.com.ua",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "src/Domain",
+            "Infrastructure\\": "src/Infrastructure"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "cboden/ratchet": "^0.3.6",
+        "symfony/console": "^3.2"
+    }
+}

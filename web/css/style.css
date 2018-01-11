@@ -1,0 +1,57 @@
+.house .floorNumber {
+    width: 100px;
+    color: #eeeeee;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.house .elevator {
+    width: 100px;
+    background: url(../img/elevatorOpen.jpg) no-repeat;
+}
+.house .elevator .door {
+    width: 72px;
+    height: 100px;
+    margin-left: 14px;
+    text-align: center;
+    vertical-align: middle;
+    background: url(../img/elevatorClose.jpg) no-repeat;
+}
+.house .elevator .open {
+    opacity: 0;
+}
+.house .elevator .close {
+    opacity: 0.8;
+}
+.house .elevator .alarm {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.panel {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+.panel .floorScreen {
+    width: 40px;
+    height: 60px;
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.panel .weightSensorScreen {
+    width: 60px;
+    height: 60px;
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+    border: 1px solid black;
+}
+.panel .weight_sensor_screen__less {
+    font-weight: normal;
+}
+.panel .weight_sensor_screen__over {
+    color: red;
+    font-weight: bold;
+}
